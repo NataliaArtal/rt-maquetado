@@ -1,0 +1,170 @@
+body {
+    width: 100vW;
+    display: block;
+    background-color: rgb(216, 207, 207);
+}
+nav {
+    width: 100%;
+    height: 9%;
+    margin-top: 0%;
+}
+.menu-princ {
+    display: block;
+    width: 100%;
+    background-color: yellow;
+}
+
+.menu-1 {
+    margin-top: 40px;
+}
+
+
+.menu-2 {
+    margin-top: 40px;
+}
+
+
+.nav-sup {
+    display: flex;
+    justify-content: space-around;
+    .inputs {
+        margin-top: 15px;
+        .inp {
+            width: 220px;
+            height: 30px;
+        }
+    }
+}
+
+.ml {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 0 px;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+    margin-top: 15px;
+    border-radius: 50%;
+    
+}
+
+.logo1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 19px;
+    margin-left: 5px;
+}
+.nav-down {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    li {
+        margin: 5px;       
+    }
+}
+
+.nav li a:not(:last-child) .flecha {
+    display: inline;
+}
+
+.icons {
+    margin-top: 60px;
+}
+
+
+.vacio {
+    background-color: rgb(189, 167, 95);
+    width: 100%;
+    height: 90px;
+}
+
+.barra-menu {
+    font-weight: lighter;
+    color: rgb(98, 115, 116);
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+.caja-gde {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.lateral {
+    width: 20%;
+    box-shadow: 2px 2px 2px rgb(179, 174, 174);
+    margin-left: 25px;
+    border-radius: 5px;
+}
+
+.principal {
+    width: 80%;
+    display: block;
+    align-items: center;
+    box-shadow: 5px 2px 2px 2px rgb(179, 174, 174);
+    background-color: rgb(212, 201, 201);
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-right: 15px;
+}
+
+h5 {
+    font-weight: lighter;
+}
+
+.barra {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 15px;
+    background-color: aliceblue;
+    border-radius: 3px;
+    .text{
+        font-size: 20px;
+        margin-right: 15px;
+        .fas.fa-toggle-on {
+            font-size: 25px;
+            margin-top: 5px;
+        }
+    }
+}
+
+.producto {
+    height: 100%;
+    display: block;
+    background-color: aliceblue;
+    margin-top: 12px;
+    border-radius: 3px;
+}
+
+.prod {
+    display: flex;
+    align-content: space-around;
+    margin-bottom: 40px;
+}
+   
+
+.img {
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+    
+    img {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+.desc {
+    margin-left: 100px;
+}
